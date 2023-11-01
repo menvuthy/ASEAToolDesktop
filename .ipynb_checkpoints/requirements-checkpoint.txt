@@ -1,0 +1,12 @@
+folium
+rasterio
+natsort
+rtree
+geopandas
+geemap
+mapclassify
+contextily
+proplot
+matplotlib_scalebar
+scikit-learn
+opencv-python

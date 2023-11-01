@@ -1,0 +1,33 @@
+How to install ASEA Tool on Desktop
+
+Step 1:
+  - Download and install Anaconda
+
+Step 2:
+  - Open Anaconda Prompt from Search Box
+  - Create environment and install python 3.9 by running the code snippet below:
+      ->  conda create --name aseatool python=3.9
+
+  - Check environment list by running the code below:
+      -> conda env list
+
+Step 3:
+  - Activate environment (aseatool) by running the code below:
+      -> conda activate aseatool
+
+  - Install JupyterLab by running the code below:
+      -> conda install -c conda-forge jupyterlab
+
+Step 4:
+  - Set path of ASEATool directory by copying and pasting the path to Anaconda prompt
+	- Filepath: C:\Users\ahmed.raidh\Desktop\ASEATool
+	- Code to run in Anaconda prompt: cd C:\Users\ahmed.raidh\Desktop\ASEATool
+  - Install neccessary modules by running the code below:
+      -> pip install -r requirements.txt
+
+Step 5:
+  - Install Google Cloud CLI via https://cloud.google.com/sdk/docs/install
+      -> Download by clicking on [Google Cloud CLI installer] in the instruction.
+      -> Click to install [GoogleCloudSDKInstaller.exe] and run
+      -> Log in Google Earth Engine Gmail
+      -> Select cloud project name (make sure to create cloud project in Google Earth Engine in advanced based on the user manual.)
