@@ -31,3 +31,10 @@ Step 5:
       -> Click to install [GoogleCloudSDKInstaller.exe] and run
       -> Log in Google Earth Engine Gmail
       -> Select cloud project name (make sure to create cloud project in Google Earth Engine in advanced based on the user manual.)
+
+How to open ASEATool:
+
+- Open Anaconda Prompt from Window menu
+- Activate environment by running -> conda activate aseatool
+- Change directory to ASEATool Deskptop by running -> cd C:\Users\ahmed.raidh\Desktop\ASEATool
+- Open Jupyter Lab by running -> jupyter lab
